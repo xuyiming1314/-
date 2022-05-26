@@ -1,0 +1,194 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#bBox {
+	width: 1600px;
+	height: 4093px;
+	border: 1px solid blueviolet;
+	margin: auto;
+	box-sizing: border-box;
+}
+.pattern{
+  width: 1600px;
+  height: 573px;
+  box-sizing: border-box;
+  padding: 0px 203px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+.pattern .us {
+	margin: 0px auto;
+	width: 168px;
+	height: 24px;
+	font-family: MicrosoftYaHei;
+	font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #067fb7;
+	padding-top: 33px;
+}
+.pattern .xianTi {
+  position: absolute;
+  top: 83px;
+  left: 463px;
+}
+.pattern .huiSe {
+  width: 240px;
+  height: 17px;
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 31px;
+  letter-spacing: 0px;
+  color: #9c9c9c;
+  position: absolute;
+  top: 89px;
+  left: 662px;
+}
+.pattern .write_edu {
+  width: 1193px;
+  height: 76px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 31px;
+  letter-spacing: 0px;
+  color: #686868;
+  margin: 0px auto;
+    margin-top: 0px;
+  margin-top: 80px;
+}
+.pattern .computer {
+  width: 358px;
+  height:279px;
+  margin-top: 54px;
+  padding-left: 382px;
+}
+.system{
+	width: 1600px;
+	height: 1814px;
+	border: 1px solid #067fb7;
+	background: url(../img/aboutUs/black.png) repeat fixed center;
+	box-sizing: border-box;
+	position: relative;
+}
+.system .keCheng {
+  width: 100px;
+  height: 25px;
+  font-family: MicrosoftYaHei;
+  font-size: 24px;
+/*  font-weight: normal;
+  font-stretch: normal; */
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  /* opacity: 0.35; */
+  padding: 50px 0px 29px 753px;
+}
+.system .xianTio {
+  padding-left: 454px;
+}
+.system .technology {
+  width: 317px;
+  height: 19px;
+  font-family: MicrosoftYaHei;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #f8f8f8;
+  position: absolute;
+  top: 113px;
+  left: 638px;
+}
+.system .blue {
+  padding: 9px 200px;
+  /* background-color: #1b94e1; */
+}
+.blue .daxueshe {
+  /* padding: 9px 200px; */
+  width: 137px;
+  height: 42px;
+  display: inline-block;
+  background-color: #1b94e1;
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 50px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  /* line-height: 42px; */
+  text-align: center;
+  box-sizing: border-box;
+}
+.system .content {
+  width: 1198px;
+  height: 416px;
+  background-color: #1b94e1;
+  padding: 22px 0px 0px 34px;
+  /* box-sizing: border-box; */
+}
+.blue .float {
+  float: left;
+  margin-right: 94px;
+}
+.system .cricle {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #f2f2f2;
+  text-align: center;
+  line-height: 48px;
+  margin-bottom: 18px;
+}
+.mingChg {
+  font-family: MicrosoftYaHei-Bold;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 23px;
+  letter-spacing: 0px;
+  color: #fff;
+  margin-bottom: 10px;
+  /* margin-right: 255px; */
+}
+.pingmian {
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.xianlu {
+  height: 2px;
+  width: 220px;
+  background-color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.jieShao {
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.float:last-child {
+  margin-right: 0px;
+}

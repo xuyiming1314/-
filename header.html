@@ -1,0 +1,106 @@
+<div id="head">
+	<a href=" ">
+		<img src="img/public/logo.png" />
+	</a>
+	<ul class="nav">
+		<li>
+			<a href="#">柏瑞软件</a>
+			<ul class="down">
+				<li>
+					<a href="#">课程体系</ a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">柏瑞教育</a>
+			<ul class="down">
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+			</ul>
+		</li>
+		</li>
+		<li>
+			<a href="#">咨询平台</a>
+			<ul class="down">
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">关于我们</a>
+			<ul class="down">
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+				<li>
+					<a href="#">课程体系</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<img src="img/fonts/user.png" class="people" />
+</div>
+<script type="text/javascript">
+	$(function() {
+		$('.nav li').mouseover(function() {
+			$(this).children('a').css({
+				'color': '#12a5c8'
+			});
+			$(this).children('ul').stop().slideDown();
+			$(this).siblings().children('ul').stop().slideUp();
+		});
+		$('.nav li').mouseleave(function() {
+			$(this).children('a').css({
+				'color': ''
+			});
+			$(this).children('ul').stop().slideUp();
+		});
+	});
+</script>
